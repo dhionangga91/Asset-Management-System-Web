@@ -1,0 +1,259 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	background:#111111;
+}
+
+.container{
+	margin: 0 auto;
+	width: 1204px;
+	min-height: 1130px;
+	background: black;
+	border:2px solid #A105A0;
+}
+.kirisidebar{
+	width: 300px;
+	float: left;
+	border-style: solid;
+	border-color:#9F059E;
+	border-right: none;
+	border-left: none;
+	border-bottom: none;
+	border-width: 2px;
+	background: #373737;
+	min-height: 982px;
+	margin-top: 8px;
+	margin-bottom: 20px;
+}
+.kirisidebar a{
+	color: white;
+}
+.kanansidebar{
+	width: 892px;
+	float: right;
+	border-style: solid;
+	border-color: #9F059E;
+	border-width: 2px;
+	border-bottom: none;
+	border-right: none;
+	padding: 5px;
+	margin-bottom: 20px;
+	margin-top: 8px;
+	background: white;
+	min-height: 972px;
+}
+.headerkanan{
+	height: 40px;
+	background-color: #545454;
+	padding: 10px;
+	text-align: left;
+	font-size: 30px;
+	width: 850px;
+	color:#CF0DC2;
+}
+.navlogo{
+	border-bottom: 1px solid #A105A0;
+	height: 60px;
+	margin: 0 auto;
+	width: 1200px;
+	background:#1F1F1F;
+	background-size:auto;
+}
+.navlogo li{
+	float: left;
+	text-decoration: none;
+	margin-left: 10px;
+	height: 50px;
+	display: inline;
+}
+.nav {
+	margin:0 auto;
+	width: 1200px;
+	height: 75px;
+	background:#373737;
+}
+
+.nav ul{
+	list-style: none;
+	display: inline;
+}
+
+.nav li {
+	float: left;
+}
+
+.nav ul li:hover a {
+	color: #D3090C;
+}
+.nav ul li a {
+	display: block; 
+	color: white; 
+	text-decoration: none;
+		
+}
+
+.main-nav {
+	width: 1200px;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	height: 75px;
+}
+.main-nav li{
+	display: inline;
+	margin-left: 100px;
+}
+
+.main-nav a{
+	text-decoration: none;
+	color: #FFFFFF;
+	font-size:10pt; 
+	display: inline;
+}
+.main-nav a:hover{
+	color: #D3090C;
+}
+
+.main-nav a{
+	display: inline;
+}
+
+.contentcrud{
+	margin: 0 auto;
+	width: 874px;
+	float: left;
+}
+.user-section{
+	background:#0D0D0D;
+	width: 298px;
+	margin: 0 auto;
+	border-bottom: 1px solid #A105A0; 
+}
+
+.user-section-inner{
+	width: 100px;
+	margin: 2px auto;
+	padding: 5px;
+	background: black;
+}
+.user-info{
+	width: 298px;
+	text-align: center;
+	font-size: 25px;
+	color: white;
+	margin:0 auto;
+	background: black;
+	border-top: 1px solid #373737;
+}
+.thumbnail{
+	margin: 20 10 20 10;
+	width: 240px;
+	padding: 20px;
+	float: left;
+	min-height: 210px;
+	text-align: center;
+}
+.thumbnail a{
+	text-decoration: none;
+	text-align: center;
+	font-size: 24px;
+	padding: 0;
+	color:#9E049D;
+}
+.thumbnail a:hover{
+	color: #D3090C;
+}
+.userinfo{
+	width: 850px;
+	margin: 10 20 10 20;
+	background-color:#545454;
+	height: 30px;
+	text-align: left;
+	padding: 10px;
+	color:white;
+}
+.dashmenu,.dashcari{
+	float: left;
+	width: 270px;
+	text-decoration: none;
+	border-bottom: #9F059E;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	padding: 15px;
+}
+.dashmenu a,.mainmenubtn a{
+	text-decoration: none;
+}
+.gm{
+	width: 30px;
+	float: left;
+}
+.am{
+	width: 240px;
+	float: right;
+}
+.am ,.gm{
+	display: inline;
+	
+}
+.mainmenubtn {
+    cursor: pointer;
+    float: left;
+	width: 270px;
+	border-bottom: #9F059E;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;	
+	padding: 15px;
+}
+.dropdown {
+	float: left;
+    position: relative;
+    display: inline-block;
+	width: 290px;
+		
+}
+.dropdown-child {
+    display: none;
+    	
+}
+.dropdown-child a {
+	float: left;
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+    display: block;
+	width: 260px;
+	border-bottom: #9F059E;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;	
+	
+}
+.dropdown:hover .dropdown-child {
+	float: left;
+	width: 260px;
+    display: block;
+	
+}
+.dropdown a:hover{
+	color: #D3090C;
+}
+.dashmenu a:hover{
+	color: #D3090C;
+}
+.copyright{
+	margin: 0 auto;
+	background:#373737;
+	color: white;
+	height: 15px;
+	padding: 15px 0;
+	clear: both;
+	white-space: nowrap;
+	text-align: center;
+	line-height: 10px;
+	font-size: 20px;
+	bottom: -50px;
+	width: 1205px;
+	border:1px solid #860485;
+}
+
+
